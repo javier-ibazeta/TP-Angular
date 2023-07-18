@@ -1,0 +1,43 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: double;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #04AA6D;
+  border-color: black;
+  border-style: double;
+}
+button{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #04AA6D;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+
+}
+#container-boton{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  
+}

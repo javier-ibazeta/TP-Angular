@@ -1,0 +1,21 @@
+<h1>Productos</h1>
+ <div id="container-boton">
+    <button (click)="Ver()" >Mostrar/Ocultar</button> 
+ </div>
+
+ <div *ngIf = "mostrar" >
+    <table id="customers">
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+      </tr>
+      
+      <tr *ngFor="let producto of productos">
+          <td> {{producto.nombre}} </td> 
+          <td> $ {{producto.costo}}  </td>
+      </tr>    
+      
+    </table>   
+   
+  </div>
+
